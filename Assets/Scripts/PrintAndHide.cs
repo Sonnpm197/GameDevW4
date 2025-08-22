@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConsolePrint : MonoBehaviour
 {
     private int i = 3; // Start value
+    public Renderer rend;
 
     void Start()
     {
