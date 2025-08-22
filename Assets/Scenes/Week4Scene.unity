@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b70bdf04e7249544853c137accd6b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  studentNumber: 0
-  bandReached: 0
+  studentNumber: 25383896
+  bandReached: 2
 --- !u!1 &681248591
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +373,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3755bcd0acaed1946bf8dde1f482602f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1869403392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869403394}
+  - component: {fileID: 1869403393}
+  m_Layer: 0
+  m_Name: LoadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1869403393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869403392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8606d58e5c030da4ea7b3d6ee73446f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redObj: {fileID: 7812935138991484346, guid: 5288a40c034671d438f3580ad5c429f7, type: 3}
+  blueObj: {fileID: 0}
+--- !u!4 &1869403394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869403392}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -380,3 +426,4 @@ SceneRoots:
   - {fileID: 1153005957}
   - {fileID: 681248593}
   - {fileID: 516932472}
+  - {fileID: 1869403394}
